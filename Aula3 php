@@ -1,0 +1,84 @@
+<?php
+    $alunos[] = "Arnaldinho";
+    $alunos[] = "Leticia Pistola";
+    $alunos[] = "Mais importante que sua tia";
+    $alunos[] = "Nath meu drive nao funfa";
+    $alunos[] = "betina eu tenho 1 milhao";
+
+
+    $numeros[1] = 1;
+    $numeros[2] = 15;
+    $numeros[3] = 30;
+    $numeros[4] = 45;
+
+
+
+    $numeros["primeiro"] = 1;
+    $numeros["segundo"] = 15;
+    $numeros["terceiro"] = 30;
+    $numeros["quarto"] = 45;
+
+     $paes = ["De leite" , "frances" , "Pão de ló do Arnaldinho"];
+
+     echo $alunos[4];
+  
+     $professor["nome"] = "Vitor";
+     $professor["idade"] = "22";
+
+     echo var_dump($professor);
+     
+     for ($i = 0; $i < count($professor); $i++)
+     
+     {
+     	echo $alunos[$i] . "<br>";
+     }
+
+
+     $tabuleiro = array(
+         1=>array("a","b","c"),
+         2=>array("d","e","f"),
+         3=>array("g","h","i"),
+      );
+
+    $matrix[0][0] = "ALOW";
+    $matrix[1][0] = "WALO";
+    $matrix[0][1] = "AWOL";
+    $matrix[1][1] = "OLAW";
+ 
+//echo var_dump($tabuleiro) . "<br>";
+  //echo var_dump($matrix);
+
+
+$carros[7]["Motorista"] = "Jason";
+$carros[7]["Passageiro1"] = "Bonder";
+$carros[7]["Passageiro2"] = "Junior";
+$carros[7]["Passageiro3"] = "";
+
+$carros[1002]["Motorista"] = "Ashe";
+$carros[1002]["Passageiro1"] = "Katty";
+$carros[1002]["Passageiro2"] = "";
+$carros[1002]["Passageiro3"] = "";
+
+$carros[300]["Motorista"] = "Zeca";
+$carros[300]["Passageiro1"] = "Hérculano";
+$carros[300]["Passageiro2"] = "Krateus";
+$carros[300]["Passageiro3"] = "Ariovaldo";
+
+
+
+echo $carros[7]["Motorista"] . "<br>";
+echo $carros[1002]["Motorista"] . "<br>";
+echo $carros[300]["Motorista"] . "<br>";
+
+echo  "<br>";
+
+echo $carros[300]["Passageiro1"] . "<br>";
+echo $carros[300]["Passageiro2"] . "<br>";
+echo $carros[300]["Passageiro3"] . "<br>";
+
+
+
+
+
+
+     ?>
